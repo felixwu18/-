@@ -1,0 +1,85 @@
+
+/* 表单样式 */
+form>div {
+  width: 60%;
+  margin:0 auto;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1.5em;
+  position: relative;
+  background-color: white;
+}
+
+form>h2 {
+  width: 85%;
+  margin: 18.72px auto;
+  color: rgb(36,155,221);
+  padding-bottom: .8em;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-weight: 30px;
+}
+
+form input[type="text"]{
+  width: 40em;
+  height: 2.5em;
+  margin-bottom: 20px;
+  border: 1px solid rgb(230,188,195);
+  margin-left: 10px;
+    text-indent: .5em;
+}
+form input[type="text"]:hover{
+  background-color: yellowgreen;
+}
+form input.checkCode{
+  width: 40%;
+}
+input.checkCode + span{
+  color: rgb(164,164,164);
+  border: .08em solid rgb(164,164,164);
+  padding:.2em .8em;
+  border-radius: .2em;
+  background-color: rgb(244,244,244);
+}
+form input[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 310px;
+  background-color: rgb(0, 204, 255);
+  border: none;
+  color: white;
+  margin-left: 6em;
+  font-size: 1.5em;
+    padding: .3em;
+}
+form div:last-child{
+  padding-left: 27em;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+}
+form div:last-child>a{
+  color: #a4a4a4;
+  font-size: .9em;
+}
+
+form input[type='checkbox']{
+  margin-left: 14em;
+}
+
+form span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+form label {
+  font-size: 14px;
+  width: 6em;
+  display: inline-block;
+  text-align: right;
+  color: rgb(164,164,164);
+}
+form span.aggrement {
+  margin-right: 165px;
+}

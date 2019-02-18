@@ -1,0 +1,172 @@
+.progress{
+  margin-top: 3em;
+}
+.progress div:nth-child(2){
+ display: flex;
+ align-items: center;
+}
+.round{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: rgb(201,201,201);
+}
+.shortBar{
+  width: 7em;
+  height: .6em;
+  background-color: rgb(201,201,201);
+  border-radius: .3em;
+}
+.SFStyle{
+  color: rgb(201,201,201);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.SFStyle:nth-child(1){
+  margin-left: 2em;
+}
+
+.wholeRoute{
+  width:80%;
+  margin: 0 auto 8em;
+  height: 55em;
+  background-color: white;
+  padding-bottom: 1.5em;
+}
+.wholeRouteHead{
+  font-size: 1.2em;
+  background-color: rgb(80,158,255);
+  color: white;
+  text-align:   center;
+  padding: .2em 0;
+  margin-top: .2em;
+  margin-bottom: 1.5em;
+}
+#progressInfo{
+  margin-bottom: 3em;
+}
+#progressInfo span{
+font-size: 1.2em;
+font-weight: bolder;
+}
+#progressInfo span:nth-child(odd){
+  color: rgb(201,201,201);
+  margin-left: 6em;
+  font-size: 1.5em;
+}
+#progressInfo span:nth-child(even),
+.reviewProcess>span{
+  background-color: rgb(201,201,201);
+  color: white;
+  padding: .2em;
+  border-radius: .4em;
+}
+
+.blueToggle{
+   color:rgb(36,155,221);
+}
+.reviewProcess{
+  text-align: right;
+  margin-right: 19.5em;
+  padding-top: 1em;
+}
+
+.SFStyle:nth-child(1){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(1),
+#progressInfo span:nth-child(3),
+#progressInfo span:nth-child(5){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(2),
+#progressInfo span:nth-child(4),
+#progressInfo span:nth-child(6){
+  background-color:rgb(36,155,221);
+  color: white;
+}
+.shortBar:nth-child(2),
+.round:nth-child(3),
+.shortBar:nth-child(4),
+.shortBar:nth-child(5),
+.shortBar:nth-child(7),
+.round:nth-child(6),
+.shortBar:nth-child(8),
+.shortBar:nth-child(10),
+.round:nth-child(9),
+.shortBar:nth-child(11),
+.reviewProcess span{
+  background-color:rgb(36,155,221);
+}
+
+.gainNumber{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3.5em;
+}
+.generateNumber{
+  height: 20em;
+}
+.generateNumberTip{
+  padding-bottom: 1.5em;
+}
+.generateNumberTip span{
+  font-size: 1.5em;
+  font-weight: bold;
+  color:rgb(196, 78, 100);
+  margin-left: 8em;
+}
+.numberShow{
+  height: 8em;
+  line-height: 8em;
+  text-align: center;
+}
+.numberShow span{
+  display: inline-block;
+  width: 6em;
+  border-radius: .5em;
+  font-size: 3.5em;
+  font-weight: bolder;
+  background-color: rgb(80,158,255);
+  color: white;
+}
+.numberBtn{
+  text-align: center;
+  padding-top: 5em;
+}
+.numberBtn button{
+  width: 10em;
+  height: 3em;
+  margin: 0 1em;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: .5em;
+}
+.congratulation{
+  display: none;
+}
+.congratulation p:nth-child(1){
+  color: rgb(79,174,49);
+  font-size: 2em;
+  height: 2.2em;
+  line-height: 2.2em;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+.congratulation p:nth-child(2){
+  font-size: 1.8em;
+  color: rgb(36,155,221);
+  padding-left: 9em;
+  margin-bottom: 2em;
+}
+.congratulation a{
+  margin-left: 45em;
+}
+.runMan a{
+  margin-left: 20em;
+  padding: .3em .3em;
+  background-color: rgb(240,240,240);
+  border-radius: .5em;
+
+}

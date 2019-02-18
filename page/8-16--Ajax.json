@@ -1,0 +1,15 @@
+[{
+  "name":"小芳",
+  "sex":"female",
+  "age":"18",
+  "loginCode":"11111111",
+  "userName1":"12345678911",
+  "userName2":"123@qq.com"
+},{
+  "name":"小明",
+  "sex":"male",
+  "age":"20",
+  "loginCode":"22222222",
+  "userName1":"12345678912",
+  "userName2":"110@qq.com"
+}]

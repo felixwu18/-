@@ -1,0 +1,51 @@
+
+/* 表单样式 */
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1.5em;
+  position: relative;
+  background-color: white;
+  margin-bottom: 3em;
+}
+form .loginLeft{
+  float: left;
+  width: 50%;
+  padding: 5em 1em;
+}
+form .loginLeft img{
+  width: 100%;
+  background: radial-gradient(gray,white);
+}
+form .loginRight{
+  float:left;
+  width: 45%;
+  padding: 7em 3em 4em;
+  box-sizing: border-box;
+}
+form .loginRight h2{
+  margin-bottom: 1.5em;
+  text-indent: .5em;
+}
+form .loginRight div:last-child{
+  text-align: right;
+  width: 25em  ;
+}
+form .loginRight a{
+  color: rgb(102,102,102);
+}
+form input{
+  width: 30em;
+  height: 2.5em;
+  margin-bottom: 20px;
+  border: 1px solid rgb(230,188,195);
+  margin-left: 10px;
+  text-indent: .5em;
+}
+.input:hover{
+  background-color: yellowgreen;
+}
+input[type="submit"]{
+  background-color: rgb(36,155,221);
+  border-radius: .5em;
+}

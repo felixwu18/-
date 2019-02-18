@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>蓉马2018-报名信息填写</title>
+  <link href='../css/wholeRoute.css' rel="stylesheet">
+  <link href='../css/common.css' rel="stylesheet">
+  <link rel="shortcut icon" href="../img/titleLogo.jpg">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="headTopBar">
+      <div class="login">
+        <div class="left">
+          <div class="left">
+            <a href="myApplicationSheet.html">我的马拉松</a>
+          </div>
+        </div>
+        <div class="right">
+            <a href="">English</a>
+            <span>|</span>
+            <a href="">中文</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topBar">
+      <div class="pageWidth">
+        <img src="../img/head.fw.png" alt="">
+      </div>
+    </div>
+
+    <div class="topBarMenu">
+      <div class="pageWidth">
+        <ul>
+          <li>
+            <a href="../index.html">首页</a>
+          </li>
+          <li class="eleHover">
+            <a href="javascript:;" class="">我要报名</a>
+            <ul class="join menuItemNone">
+              <li class="borderTop">
+                <a href="login2.html">立即报名</a>
+              </li>
+              <li>
+                <a href="myApplicationSheet.html">报名查询</a>
+              </li>
+              <li>
+                <a href="../file/2018蓉马报名须知.doc">报名须知</a>
+              </li>
+            </ul>
+          </li>
+          <li class="eleHover">
+            <a href="javascript:;">比赛成绩</a>
+            <ul class="report menuItemNone">
+              <li class="borderTop">
+                <a href="">成绩查询</a>
+              </li>
+              <li>
+                <a href="">证书打印</a>
+              </li>
+            </ul>
+          </li>
+          <li class="eleHover">
+            <a href="javascript:;">赛事指南</a>
+            <ul class="raceAbout menuItemNone">
+              <li class="borderTop">
+                <a href="">关于蓉马</a>
+              </li>
+              <li>
+                <a href="">竞赛规程</a>
+              </li>
+              <li>
+                <a href="">赛事路线路</a>
+              </li>
+              <li>
+                <a href="">参赛声明</a>
+              </li>
+              <li>
+                <a href="">领物须知</a>
+              </li>
+            </ul>
+          </li>
+          <li class="eleHover">
+            <a href="javascript:;">成都介绍</a>
+            <ul class="aboutCD menuItemNone">
+              <li class="borderTop">
+                <a href="">历史文化</a>
+              </li>
+              <li>
+                <a href="">旅游指南</a>
+              </li>
+              <li>
+                <a href="">住宿及交通</a>
+              </li>
+            </ul>
+          </li>
+          <li class="eleHover">
+            <a href="javascript:;">其他服务</a>
+            <ul class="otherService menuItemNone">
+              <li class="borderTop">
+                <a href="">蓉马训练营</a>
+              </li>
+              <li>
+                <a href="">志愿者服务报名</a>
+              </li>
+              <li>
+                <a href="">纪念定制</a>
+              </li>
+              <li>
+                <a href="http://www.panda.org.cn/">熊猫基地</a>
+              </li>
+              <li>
+                <a href="http://www.djy517.com/index.do">中国.都江堰</a>
+              </li>
+              <li>
+                <a href="">中国.碧峰峡</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- 蓉马全程赛报名 -->
+  <div class="wholeRoute">
+    <div class="wholeRouteHead"></div>
+    <div class="progress">
+      <div id="progressInfo">
+        <span>01 </span><span >添加信息</span>
+        <span>02 </span><span >缴费</span>
+        <span>03 </span><span >上传体检</span>
+        <span>04 </span><span >号码分配</span>
+      </div>
+      <div>
+        <span class="SFStyle">开始</span>
+        <span class="shortBar"></span>
+        <span class="round"></span>
+        <span class="shortBar"></span>
+        <span class="shortBar"></span>
+        <span class="round"></span>
+        <span class="shortBar"></span>
+        <span class="shortBar"></span>
+        <span class="round"></span>
+        <span class="shortBar"></span>
+        <span class="shortBar"></span>
+        <span class="round"></span>
+        <span class="shortBar"></span>
+        <span class="SFStyle">成功</span>
+      </div>
+      <div class="reviewProcess">
+        <span>体检审核</span>
+      </div>
+    </div>
+
+    <!-- 表单部分 -->
+    <form action="feesPay.html" onsubmit="return fn()">
+      <h2>个人基本信息</h2>
+      <div>
+        <label for="" class="starMark">姓名</label><input id="userName" type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="0" value="">
+      </div>
+      <div>
+        <label for="id" class="starMark">证件类型</label>
+        <select class="" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">身份证</option>
+          <option value="">护照</option>
+          <option value="">军官士官证</option>
+          <option value="">台胞证</option>
+          <option value="">港澳通行证</option>
+        </select>
+      </div>
+      <div>
+        <label for="" class="starMark">证件号码</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="2" value="">
+      </div>
+      <div>
+        <label for="" class="starMark">性别</label>
+        <select class="" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">男</option>
+          <option value="">女</option>
+        </select>
+      </div>
+      <div>
+        <label for="" class="starMark">出生日期</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="starMark">国际</label>
+        <select class="" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">中国</option>
+          <option value="">美国</option>
+          <option value="">日本</option>
+          <option value="">韩国</option>
+          <option value="">英国</option>
+          <option value="">法国</option>
+          <option value="">德国</option>
+          <option value="">俄罗斯</option>
+        </select>
+      </div>
+     <div>
+        <label for="" class="starMark">民族</label>
+        <select class="" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">汉族</option>
+          <option value="">蒙古族</option>
+          <option value="">藏族</option>
+          <option value="">彝族</option>
+          <option value="">回族</option>
+          <option value="">壮族</option>
+          <option value="">傣族</option>
+          <option value="">苗族</option>
+          <option value="">维吾尔族</option>
+          <option value="">满族</option>
+        </select>
+      </div>
+      <div>
+        <label for="" class="starMark">血型</label>
+        <select class="" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">A</option>
+          <option value="">B</option>
+          <option value="">O</option>
+          <option value="">AB</option>
+        </select>
+      </div>
+      <h2>联系方式</h2>
+      <div>
+        <label for="" class="starMark">手机号码</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="starMark">电子邮箱</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="starMark">紧急联系人</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="starMark">紧急联系人手机</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <h2>个人详情</h2>
+      <div>
+        <label for="" class="starMark">居住省份城市</label>
+        <select class="pravateInfoEsp" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">四川</option>
+          <option value="">浙江</option>
+          <option value="">重庆</option>
+          <option value="">云南</option>
+          <option value="">上海</option>
+          <option value="">北京</option>
+        </select>
+        <select class="pravateInfoEsp" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">成都</option>
+          <option value="">巴中</option>
+          <option value="">雅安</option>
+          <option value="">西昌</option>
+          <option value="">泸州</option>
+        </select>
+        <select class="pravateInfoEsp" name="" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">杭州</option>
+          <option value="">宁波</option>
+          <option value="">金华</option>
+          <option value="">温州</option>
+        </select>
+      </div>
+      <div>
+        <label for="" class="starMark">职业</label>
+        <select class="indent" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)'>
+          <option value="">计算机科学</option>
+          <option value="">农业</option>
+          <option value="">商业</option>
+          <option value="">教育</option>
+          <option value="">政府</option>
+          <option value="">烹饪</option>
+          <option value="">律师</option>
+        </select>
+      </div>
+      <div>
+        <label for="" class="espStyle">身高(cm)</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="espStyle">体重(kg)</label><input type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <label for="" class="espStyle">团队名称</label><input id="groupName" type="text" onfocus='bgColorToggle(this)' onblur='bgColorRemove(this)' name="" value="">
+      </div>
+      <div>
+        <div class="isAgree">
+          <h3>参赛选手声明</h3>
+          <div>
+            1.谨此声明本人自愿参加2018年成都马拉松赛及一切相关活动<br>
+            I confirm that I am entering the 2018 Hangzhou Marathon at my own choice.<br>
+            2.本人全面理解并同意遵守组委会及协办机构所制定的各项规定及采取的措施<br>
+            I fully understand and accept all rules stipulated by the organizers and all related bodies.<br>
+            3.本人身心健康，适合参加马拉松赛事，已为参赛做好充分准备。本人全面理解参加比赛可能出现的风险，且已准备必要的防范措施<br>
+            I certify that I am physically and mentally capable of participating the Marathon race. I understand that by participating in the Marathon there might be possible risks and I have already taken proper measures against them.<br>
+            4.本人愿意承担比赛期间发生的自身意外风险责任。本人同意对于非组委会原因造成的伤害、死亡或其它任何形式的损失不索求任何形式的赔偿<br>
+            I am entering this event at my own risk and responsibility. I hereby discharge the organizer and any other individuals or organizations connected directly or indirectly with this event from any responsibility in the event of injury, death or loss of property of any kind.<br>
+            5.本人愿意按照有关要求接受药物检查以及组办方在比赛期间提供的医务治疗<br>
+            I agree to take a doping test and receive any necessary medical treatment provided by the organizer<br>
+            6.本人同意在比赛前和比赛期间不得损害，更改及遮盖马拉松官方号码布，否则裁判在发现后有权取消比赛资格<br>
+            I agree to not damage, cover or alter my number bib in any way before or during the event, otherwise can be disqualified from the race by any referee.<br>
+            7.本人授权组委会方及其指定媒体无偿使用本人的肖像、姓名、声音和其它个人资料用于赛事的组织和推广之用<br>
+            I grant permission and assign all rights, title and interest to the organizer to utilize my personal information, appearance, name, voice, bio-data and likeness with the Event in any and all Event organization and promotion activities.<br>
+            8.本人承诺以自己的名义报名并参加比赛，决不将报名后获得的号码布以任何方式转让他人<br>
+            I confirm to enter the Event in my own name and will not transfer my number bib to others for any purpose.<br>
+            9.本人同意向组办方提供有效身份证件和资料用于核实本人的身份，并同意承担因身份证件和资料不实所产生的全部责任<br>
+            I understand and agree to provide correct and valid ID/passport to verify my personal details to the organizers and agree to take full responsibility of any consequences resulted from incorrect or invalid personal details.<br>
+            10.本人同意并接受大会免费提供的意外保险<br>
+            I agree and accept the free insurance provided by the organizer of Hangzhou Marathon.<br>
+            11.本人或法定代理人已认真阅读并全面理解以上内容，且对上述所有内容予以确认，并承担相应的法律责任<br>
+            By singing this Entry Form, I and my legal adviser have already read and confirm to accept all the above terms, conditions and points and will take full
+          </div>
+          <div>
+            <input id="checkBox" type="checkbox" name="" value="">
+             <span>我已阅读并同意以上声明</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <input type="submit" value="确认报名">
+      </div>
+    </form>
+  </div>
+   <!-- 页脚 -->
+    <div class="footer" style="margin-bottom:0;">
+      <div class="footerLayout">
+         <div class="footerContent1">
+           <h3>资质认证</h3>
+           <ul>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+           </ul>
+         </div>
+         <div class="footerContent2">
+           <h3>合作伙伴</h3>
+           <ul>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+           </ul>
+         </div>
+         <div class="footerContent3">
+           <h3>友情链接</h3>
+           <ul>
+             <li><a href="#">网站建设</a></li>
+             <li><a href="#">建站快车</a></li>
+             <li><a href="#">微信营销</a></li>
+             <li><a href="#">企业网站建设</a></li>
+             <li><a href="#">客户网站</a></li>
+             <li><a href="#">h5制作软件</a></li>
+             <li><a href="#">轻站小程序</a></li>
+             <li><a href="#">公众号助手</a></li>
+           </ul>
+         </div>
+      </div>
+       <hr>
+      <div class="footerLayout2">
+          <ul>
+            <li>成都马拉松</li>
+            <li> 最新动态</li>
+            <li> 服务条款</li>
+            <li> 法律声明</li>
+            <li> 省市建站</li>
+            <li> 企业网站</li>
+            <li> 企业邮箱</li>
+            <li> 自助建站</li>
+            <li> 网站建设</li>
+            <li> 商务合作</li>
+            <li> 经销商资格</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../js/commonItemToggle.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/wholeRoute.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.raceItem{
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  height: 40em;
+
+}
+.raceItemHead{
+  font-size: 1.8em;
+  color: rgb(36,155,221);
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+.clearFloat{
+  height: 15em;
+  position: relative;
+  padding-left: 2em;
+}
+.clearFloat>div,
+.clearFloat img{
+  position: absolute;
+}
+.clearFloat>div:nth-child(1) a:hover>img:nth-child(1){
+ z-index: 1;
+}
+.clearFloat>div:nth-child(2) a:hover>img:nth-child(1){
+ z-index: 1;
+}
+.clearFloat>div:nth-child(3) a:hover>img:nth-child(1){
+ z-index: 1;
+}
+.raceItem>div:nth-child(3) a:hover>img:nth-child(1){
+   z-index: 1;
+}
+.clearFloat>div:nth-child(2) {
+  left: 27em;
+}
+.clearFloat>div:nth-child(3){
+  left: 52em;
+}
+.raceItem>div:nth-child(3){
+  height: 12em;
+  padding-left: 27em;
+}
+.raceItem>div:nth-child(3)>a{
+  position: relative;
+}
+
+.raceItem>div:nth-child(3) img{
+  position: absolute;
+}

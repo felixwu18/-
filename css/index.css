@@ -1,0 +1,148 @@
+
+/*轮播*/
+.wrapper .lunbo{
+  margin:1em auto;
+  position: relative;
+  width: 80%;
+  height: 35em;
+}
+.lunbo .imgs ul li{
+  position: absolute;
+  top:0;
+  left:0;
+  display: none;
+  width: 100%;
+
+}
+.lunbo .imgs img{
+  width: 100%;
+  height: 35em;
+}
+/*谁有cur谁出现*/
+.lunbo .imgs ul .cur{
+  display: block;
+}
+
+.lunbo .circles{
+width: 150px;
+height: 20px;
+/*水平居中*/
+position: absolute;
+left:50%;
+margin-left: -75px;
+bottom:20px;
+}
+
+.lunbo .circles ol li{
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: rgba(255,255,255,.3);
+  border-radius: 50%;
+}
+.lunbo .circles ol .cur{
+  background-color: white;
+}
+
+
+.info{
+  width: 75%;
+  height: 17em;
+  margin: 1em auto;
+}
+.floatLeft{
+  float:left;
+}
+.timeBack{
+  width: 15em;
+  height: 15em;
+  margin:1em;
+  border: solid;
+}
+.timeBack>div{
+  height: 7.5em;
+  text-align: center;
+  line-height: 7.5em;
+}
+.timeBack>div:nth-child(1){
+ font-size: 1em;
+}
+.timeBack>div:nth-child(2){
+  line-height: 1em;
+}
+#_d,
+#_h,
+#_m,
+#_s{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+}
+.news{
+  width: 15em;
+  height: 15em;
+  margin:1em;
+}
+.news img,
+.news a,
+.jcnrRight a,
+.jcnrLeft a{
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+  position: relative;
+}
+.jcnrRight a{
+  width: 14em;
+  height: 14em;
+}
+.jcnrLeft a{
+  width: 59.5em;
+  height: 29em;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top:0;
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+}
+.jcnrRight .overlay:nth-child(2){
+  width: 14em;
+  height: 14em;
+}
+.jcnrLeft .overlay:nth-child(2){
+  width: 59.5em;
+  height: 29em;
+}
+.jcnrLeft .overlay:nth-child(2):hover{
+  background-color: rgba(8, 11, 6,.4);
+}
+.overlay:hover{
+   background-color: rgba(8, 11, 6,.4);
+ }
+.jcnr{
+  width: 80%;
+  margin: 1em auto;
+}
+.clearFloat:after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.jcnrLeft{
+  border:solid;
+  float:left
+}
+.jcnrLeft img{
+  display: block;
+}
+.jcnrRight{
+float:right;
+width: 225px;
+}
+.jcnrRight img:nth-child(1){
+  margin-bottom: 1.1em;
+}

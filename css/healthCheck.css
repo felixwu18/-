@@ -1,0 +1,159 @@
+.progress{
+  margin-top: 3em;
+}
+.progress div:nth-child(2){
+ display: flex;
+ align-items: center;
+}
+.round{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: rgb(201,201,201);
+}
+.shortBar{
+  width: 7em;
+  height: .6em;
+  background-color: rgb(201,201,201);
+  border-radius: .3em;
+}
+.SFStyle{
+  color: rgb(201,201,201);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.SFStyle:nth-child(1){
+  margin-left: 2em;
+}
+
+.wholeRoute{
+  width:80%;
+  margin: 0 auto 8em;
+  height: 45em;
+  background-color: white;
+  padding-bottom: 1.5em;
+}
+.wholeRouteHead{
+  font-size: 1.2em;
+  background-color: rgb(80,158,255);
+  color: white;
+  text-align:   center;
+  padding: .2em 0;
+  margin-top: .2em;
+  margin-bottom: 1.5em;
+}
+#progressInfo{
+  margin-bottom: 3em;
+}
+#progressInfo span{
+font-size: 1.2em;
+font-weight: bolder;
+}
+#progressInfo span:nth-child(odd){
+  color: rgb(201,201,201);
+  margin-left: 6em;
+  font-size: 1.5em;
+}
+#progressInfo span:nth-child(even),
+.reviewProcess>span{
+  background-color: rgb(201,201,201);
+  color: white;
+  padding: .2em;
+  border-radius: .4em;
+}
+
+.blueToggle{
+   color:rgb(36,155,221);
+}
+.reviewProcess{
+  text-align: right;
+  margin-right: 19.5em;
+  padding-top: 1em;
+}
+
+.SFStyle:nth-child(1){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(1),
+#progressInfo span:nth-child(3){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(2),
+#progressInfo span:nth-child(4){
+  background-color:rgb(36,155,221);
+  color: white;
+}
+.shortBar:nth-child(2),
+.round:nth-child(3),
+.shortBar:nth-child(4),
+.shortBar:nth-child(5),
+.shortBar:nth-child(7),
+.round:nth-child(6){
+  background-color:rgb(36,155,221);
+}
+
+/* 体检表单提交 */
+form{
+  padding-top: 8em;
+}
+form>div{
+  margin-bottom: 3em;
+  padding-left: 13em;
+}
+form>div>a{
+  display: inline-block;
+  width: 8em;
+  height: 2.1em;
+  border: solid;
+  border-radius: .5em;
+  background-color: rgb(75,163,75);
+  text-align: center;
+  line-height: 2.1em;
+}
+form>div>span{
+  margin-right: 2em;
+}
+form>div>span:nth-child(1){
+     font-size: 1.1em;
+     font-weight: bold;
+     color: red;
+     display: inline-block;
+     width: 25%;
+     text-align: right;
+}
+form>div:last-child{
+  margin-top: 7em;
+}
+form>div button{
+  background-color: rgb(36,155,221);
+  color:white;
+  border: none;
+  width: 11em;
+  height: 3em;
+  font-size: 1.2em;
+  border-radius: .5em;
+  margin-left: 13em;
+}
+
+ /* 体检审核 */
+ form[class="healthSheetChecking"]{
+   display: none;
+ }
+ form.healthSheetChecking p{
+   padding-left: 12em;
+   line-height: 2em;
+   font-size: 2em;
+ }
+.wholeRoute2 #progressInfo span:nth-child(5){
+  color:rgb(36,155,221);
+}
+.wholeRoute2 #progressInfo span:nth-child(6){
+  background-color:rgb(36,155,221);
+  color: white;
+}
+.wholeRoute2 .shortBar:nth-child(8),
+.wholeRoute2 .shortBar:nth-child(10),
+.wholeRoute2 .round:nth-child(9){
+  background-color:rgb(36,155,221);
+}

@@ -1,0 +1,251 @@
+/* 页面头部 */
+
+/* 公共样式 */
+html,body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(240,240,240);
+}
+a{
+  text-decoration:none;
+  color: white;
+}
+ul,ol{
+  padding-left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  display: inline-block;
+}
+/* 提取样式类 */
+.clearFloat:after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.floatLeft{
+  float:left;
+}
+/* 过程中定义重复了,待改正 */
+.wrapper .login .left{
+  float:left;
+}
+.wrapper .login .right{
+  float:right;
+}
+.eleHover:hover ul{
+   display: block;
+}
+
+.wrapper .headTopBar{
+  height: 2.1em;
+  background-color: rgb(108,108,108);
+  color: white;
+}
+.wrapper .login{
+  width:80%;
+  height: 2.3em;
+  line-height: 2.3em;
+  margin: 0 auto;
+  font-size: .9em;
+}
+.wrapper .login a{
+    color: white;
+}
+
+.wrapper .topBar{
+  background-color: rgb(36,155,221);
+}
+.wrapper .topBar .pageWidth,
+.wrapper .topBar img{
+  width: 60em;
+  height: 9em;
+  margin: 0 auto;
+}
+.menuItemNone{
+  display: none;
+}
+.wrapper .topBarMenu .join,
+.report,
+.raceAbout,
+.aboutCD,
+.otherService{
+  background-color: #d2d2d2;
+  width: 8em;
+  font-size: .8em;
+  text-align: center;
+}
+.wrapper .topBarMenu{
+  width: 100%;
+  background-color: rgb(19,84,164);
+}
+.wrapper .topBarMenu .pageWidth{
+  width: 80%;
+  margin: 0 auto;
+  line-height: 3em;
+}
+.wrapper .topBarMenu .pageWidth>ul{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+
+.wrapper .topBarMenu .pageWidth>ul>li>a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.wrapper .topBarMenu  .pageWidth>ul>li{
+    position: relative;
+}
+.wrapper .topBarMenu  .pageWidth>ul>li>ul{
+  position: absolute;
+  left: -1.5em;
+  top:3em;
+  z-index: 999;
+}
+.wrapper .topBarMenu  .pageWidth>ul>li>ul>li{
+  border-bottom: 1px solid white;
+}
+.wrapper .topBarMenu  .pageWidth>ul>li>ul>li:hover{
+  background-color: rgb(238,238,238);
+}
+.wrapper .topBarMenu  .pageWidth>ul>li>ul a{
+  color: rgb(24,88,175);
+
+}
+.borderTop{
+    border-top:.3em solid rgb(36,155,221);
+}
+
+
+
+
+/* 页脚 */
+.wrapper .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(44, 44, 44);
+}
+
+.wrapper .footer .footerLayout {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .footer .footerLayout>div {
+  width: 32%;
+  flex-shrink: 0;
+  margin-top: 60px;
+}
+
+.wrapper .footer .footerLayout>div>h3 {
+  text-align: center;
+  color: rgb(144, 144, 144);
+}
+
+.wrapper .footer .footerLayout>div:nth-child(1)>ul, .wrapper .footer .footerLayout>div:nth-child(2)>ul {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .footer .footerLayout>div:nth-child(1)>ul {
+  padding-left: 25px;
+}
+
+.wrapper .footer .footerLayout .footerContent1>ul>li, .wrapper .footer .footerLayout .footerContent2>ul>li {
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.wrapper .footer .footerLayout .footerContent1>ul>li>a, .wrapper .footer .footerLayout .footerContent2>ul>li>a {
+  display: block;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background: url(../img/ic01.png) no-repeat;
+}
+
+.wrapper .footer .footerLayout>div:nth-child(2)>ul>li>a {
+  width: 83px;
+  height: 30px;
+  background: url(../img/alipay.png) no-repeat;
+  background-position: -2px 0;
+}
+
+.wrapper .footer .footerLayout .footerContent3 ul {
+  margin-top: 32px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.wrapper .footer .footerLayout .footerContent3 ul li {
+  width: 25%;
+  flex-shrink: 0;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.wrapper .footer .footerLayout .footerContent3 ul li a {
+  display: block;
+  color: rgb(119, 119, 119);
+}
+
+.footer hr {
+  border: 1px solid rgb(48, 48, 48);
+  height: 1px;
+  background-color: rgb(36, 36, 36);
+}
+
+.wrapper .footer .footerLayout2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper .footer .footerLayout2 ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.wrapper .footer .footerLayout2 ul li {
+  flex: 1;
+  margin: 15px 0;
+  color: rgb(119, 119, 119);
+  font-size: 12px;
+}
+
+.wrapper .footer .footerLayout2 p {
+  color: rgb(119, 119, 119);
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 115px;
+}
+
+.wrapper .footer .footerLayout2 p span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/beianIcon.png);
+}
+
+.wrapper .footer .footerLayout2 div {
+  display: inline-block;
+}
+
+.wrapper .footer .footerLayout2 div img {
+  width: 84px;
+  height: 31px;
+}

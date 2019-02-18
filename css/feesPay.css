@@ -1,0 +1,152 @@
+.progress{
+  margin-top: 3em;
+}
+.progress div:nth-child(2){
+ display: flex;
+ align-items: center;
+}
+.round{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: rgb(201,201,201);
+}
+.shortBar{
+  width: 7em;
+  height: .6em;
+  background-color: rgb(201,201,201);
+  border-radius: .3em;
+}
+.SFStyle{
+  color: rgb(201,201,201);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.SFStyle:nth-child(1){
+  margin-left: 2em;
+}
+
+.wholeRoute{
+  width:80%;
+  margin: 0 auto 8em;
+  height: 45em;
+  background-color: white;
+  padding-bottom: 1.5em;
+}
+.wholeRouteHead{
+  font-size: 1.2em;
+  background-color: rgb(80,158,255);
+  color: white;
+  text-align:   center;
+  padding: .2em 0;
+  margin-top: .2em;
+  margin-bottom: 1.5em;
+}
+#progressInfo{
+  margin-bottom: 3em;
+}
+#progressInfo span{
+font-size: 1.2em;
+font-weight: bolder;
+}
+#progressInfo span:nth-child(odd){
+  color: rgb(201,201,201);
+  margin-left: 6em;
+  font-size: 1.5em;
+}
+#progressInfo span:nth-child(even),
+.reviewProcess>span{
+  background-color: rgb(201,201,201);
+  color: white;
+  padding: .2em;
+  border-radius: .4em;
+}
+
+.blueToggle{
+   color:rgb(36,155,221);
+}
+.reviewProcess{
+  text-align: right;
+  margin-right: 19.5em;
+  padding-top: 1em;
+}
+
+.SFStyle:nth-child(1){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(1){
+  color:rgb(36,155,221);
+}
+#progressInfo span:nth-child(2){
+  background-color:rgb(36,155,221);\
+  color: white;
+}
+.shortBar:nth-child(2),
+.round:nth-child(3),
+.shortBar:nth-child(4){
+  background-color:rgb(36,155,221);
+}
+form{
+  padding-top: 6em;
+}
+form>div{
+  margin-bottom: .8em;
+}
+form>div>span:nth-child(1){
+     font-size: .9em;
+     font-weight: bold;
+     color: red;
+     display: inline-block;
+     width: 25%;
+     text-align: right;
+}
+form>div>span:nth-child(2){
+  margin-left: 1em;
+}
+form>div:nth-child(4){
+  display: flex;
+  align-items: center;
+  margin: 2em 0 5em;
+  padding-left: 20em;
+}
+form img{
+  width: 7em;
+}
+
+form>div input[type="submit"]{
+  background-color: rgb(75,163,75);
+  color:white;
+  border: none;
+  width: 11em;
+  height: 3em;
+  font-size: 1.2em;
+  border-radius: .5em;
+  margin-left: 22em;
+}
+
+/* 缴费跳转页面 */
+.feesPayCheck{
+  font-size: 2em;
+  color: rgb(36,155,221);
+  text-align: center;
+  padding-top: 3em;
+  display: none;
+}
+.feesPayCheck div:nth-child(1){
+  margin-bottom: 1em;
+}
+
+/* 缴费成功页面 */
+.feesPayOk{
+  display: none;
+}
+.feesPayOk div:nth-child(1){
+  text-align: center;
+  font-size: 2em;
+  color: rgb(36,155,221);
+}
+.feesPayOk div:nth-child(2){
+  margin-top: 8em;
+  padding-left: 5em;
+}
